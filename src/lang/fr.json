@@ -13,6 +13,11 @@
           "name": "API Discord"
         }
       ]
+    },
+    "setup": {
+      "processed": "`✅ Environ \\`${approxMsgs}\\` messages ont été traités.`",
+      "alreadyProcessed": "`✅ Ce salon a déjà été traité.\n\n> Si vous souhaitez le retraiter, utilisez l'option \\`force\\`.`",
+      "done": "`🤖 **WhosThat** est maintenant configuré pour envoyer des messages dans <#${whosThatChannel.id}>.\n\n> <#${pickerChannel.id}> vous permettra de choisir parmi 10 messages avec </whosthat:${config.default.SLASH_COMMANDS_IDS.whosthat}>.\n> Assurez-vous de sélectionner le meilleur message à envoyer !`"
     }
   },
   "events": {
@@ -36,6 +41,11 @@
     "templateSltMns": {
       "first_option": "Vous avez sélectionné la première option !",
       "second_option": "Vous avez sélectionné la seconde option !"
+    }
+  },
+  "utils": {
+    "fetchMessages": {
+      "pocessing": "`🔄 Traitement de \\`${messagesCount}\\` messages en cours...`"
     }
   }
 }

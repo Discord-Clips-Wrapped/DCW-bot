@@ -22,7 +22,9 @@
     "paths": {
       "@utils/*": ["src/utils/*"],
       "@models/*": ["src/models/*"],
-      "@rootDir": ["./"]
+      "@handlers/*": ["src/utils/handlers/*"],
+      "@rootDir": ["./"],
+      "@db": ["src/db"]
     }
   },
   "ts-node": {

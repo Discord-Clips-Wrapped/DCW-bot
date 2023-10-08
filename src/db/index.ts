@@ -1,4 +1,4 @@
 import GuildData from "./guild";
-import UserData from "./user";
+import SourceData from "./source";
 
-export { GuildData, UserData };
+export { GuildData, SourceData };

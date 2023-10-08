@@ -12,6 +12,11 @@ export default interface Translations {
         }
       ];
     };
+    setup: {
+      processed: string;
+      alreadyProcessed: string;
+      done: string;
+    };
   };
   events: {
     clientMissingPermissions: {
@@ -36,5 +41,5 @@ export default interface Translations {
       second_option: string;
     };
   };
-  utils: {};
+  utils: { fetchMessages: { pocessing: string } };
 }
